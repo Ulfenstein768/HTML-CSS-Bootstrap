@@ -5,46 +5,254 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-
-    <title>Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <title>Products</title>
 </head>
 <body>
-    <head>
-        <header>
-            <ul>
-                <li><a class="h3 " href="index.html">Home</a></li>
-                <li><a class="h3" href="about.html">About</a></li>
-            </ul>
-        </header>
-    </head>
-    <main>
-          <h1 class="display 3 text-center pb-3">HTML and CSS Bootstrapping</h1>
-          <p class="lead text-center pb-5">This is the main section and in this website I will be showing something made up</p>
+        <!-- This is the navbar and brand -->  
+    <header>          
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <div class="container">
+                <a href="about.html" class="navbar-brand">AI milk Inc.</a>
 
-          <div class="container lead">
-            <div class="row">
-              <div class="col">
-                section1
-              </div>
-              <div class="col">
-                section2
-              </div>
-              <div class="col">
-                section3
-              </div>
+                <button class="navbar-toggler" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#navmenu">
+                         
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    
+                <div class="collapse navbar-collapse lead" id="navmenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">HOME</a>
+                        </li>
+                        <li class="nav-item">  
+                            <a href="about.html" class="nav-link">ABOUT US</a>
+                        </li>
+                    </ul>
+                </div>
+            </div> 
+        </nav>
+    </header>
+    <main>
+        <!-- This is the main section of the website -->
+        <!-- information area -->
+        <!-- Main area -->
+        <section class="p-5">
+          <div class="container">
+             <div class="text-center">
+                <div class="col-md p-5">
+                    <h2 class="my-5">
+                        Great display of products
+                    </h2>
+                    <p class="lead">
+                        As said in the <a class="link-dark" href="about.html">Information page</a>, the product we produce and sell are somewhat unusual... <br> However they are very nutritioun, yet contain no calories! They are dairy free, but taste just like it! They are made by <del>our slaves</del> robots, but taste <del>horrible and on ingestion hurt</del> like any human made substance!
+                    </p>
+                </div>
             </div>
           </div>
 
+        <!-- Milk products -->
+      </section>
+        <h1 class="text-center my-2">Buy milk in a bag and other products!</h1>
+        <section class="p-5">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md">
+                      <div class="card bg-light text-dark my-5">
+                          <div class="card-body text-center">
+                              <div>
+                                <i class="bi bi-droplet-fill h1"></i>
+                                  <h3 class="my-3">Buy kefir in a<span class="text-danger"> BAG</span></h3>
+                                  <button class="btn btn-dark btn-lg">
+                                    Buy now!
+                                  </button>
+                              </div>   
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-md">
+                    <div class="card bg-light text-dark my-1">
+                        <div class="card-body text-center">
+                            <div>
+                              <i class="bi bi-droplet-fill h1"></i>
+                                <h3 class="my-3">Buy Milk In<span class="text-danger"> a STRAW!</span></h3>
+                                <button class="btn btn-dark btn-lg">
+                                    Buy now!
+                                </button>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md">
+                  <div class="card bg-light text-dark my-5">
+                      <div class="card-body text-center">
+                          <div>
+                            <i class="bi bi-droplet-fill h1"></i>
+                              <h3 class="my-3">Borrow a <span class="text-danger">Spoogurt</span></h3>
+                              <button class="btn btn-dark btn-lg">
+                                Buy now!
+                              </button>
+                          </div>   
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-md">
+                <div class="card bg-light text-dark my-1">
+                    <div class="card-body text-center">
+                        <div>
+                          <i class="bi bi-droplet-fill h1"></i>
+                            <h3 class="my-3">"Normal" <span class="text-danger">Yogurt</span></h3>
+                            <button class="btn btn-dark btn-lg">
+                              Buy now!
+                            </button>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md">
+              <div class="card bg-light my-5">
+                  <div class="card-body text-center">
+                      <div>
+                        <i class="bi bi-droplet-fill h1"></i>
+                          <h3 class="my-3">AI Designed<span class="text-danger"> Butter</span></h3>
+                          <button class="btn btn-dark btn-lg">
+                            Buy now!
+                          </button>
+                      </div>   
+                  </div>
+              </div>
+            </div>
+
+            <div class="col-md">
+              <div class="card bg-light text-dark my-3">
+                  <div class="card-body text-center">
+                     <div>
+                      <i class="bi bi-droplet-fill h1"></i>
+                        <h3 class="my-3">Many Hole<span class="text-danger"> Cheese</span></h3>
+                        <button class="btn btn-dark btn-lg">
+                          Buy now!
+                        </button>
+                     </div>   
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+            <div class="col-md">
+                <div class="card bg-light text-dark my-1">
+                    <div class="card-body text-center">
+                        <div>
+                          <i class="bi bi-droplet-fill h1"></i>
+                            <h3 class="my-3">Buy kefir in a<span class="text-danger"> STRAW</span></h3>
+                            <button class="btn btn-dark btn-lg">
+                              Buy now!
+                            </button>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md">
+              <div class="card bg-light text-dark my-5">
+                  <div class="card-body text-center">
+                      <div>
+                        <i class="bi bi-droplet-fill h1"></i>
+                          <h3 class="my-3">Buy Milk In<span class="text-danger"> a BAG!</span></h3>
+                          <button class="btn btn-dark btn-lg">
+                              Buy now!
+                          </button>
+                      </div>   
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card bg-light text-dark my-1">
+                <div class="card-body text-center">
+                    <div>
+                      <i class="bi bi-droplet-fill h1"></i>
+                        <h3 class="my-3">Buy a <span class="text-danger">Spoogurt</span></h3>
+                        <button class="btn btn-dark btn-lg">
+                          Buy now!
+                        </button>
+                    </div>   
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md">
+          <div class="card bg-light text-dark my-5">
+              <div class="card-body text-center">
+                  <div>
+                    <i class="bi bi-droplet-fill h1"></i>
+                      <h3 class="my-3">"Normal" <span class="text-danger">Milk</span></h3>
+                      <button class="btn btn-dark btn-lg">
+                        Buy now!
+                      </button>
+                  </div>   
+              </div>
+          </div>
+        </div>
+
+        <div class="col-md">
+          <div class="card bg-light my-1">
+              <div class="card-body text-center">
+                  <div>
+                    <i class="bi bi-droplet-fill h1"></i>
+                      <h3 class="my-3">AI Made<span class="text-danger"> Butter</span></h3>
+                      <button class="btn btn-dark btn-lg">
+                        Buy now!
+                      </button>
+                  </div>   
+              </div>
+          </div>
+        </div>
+
+        <div class="col-md">
+          <div class="card bg-light text-dark my-5">
+              <div class="card-body text-center">
+                <div>
+                  <i class="bi bi-droplet-fill h1"></i>
+                    <h3 class="my-3">No Hole<span class="text-danger"> Cheese</span></h3>
+                    <button class="btn btn-dark btn-lg">
+                      Buy now!
+                    </button>
+                </div>   
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+
+      </section>
+        <!-- This is the about section -->
+        <section class="bg-dark text-light p-3">
+          <div class="container">
+              <div class="d-md-flex align-items-center justify-content-between">
+                  <div>
+                      <h2 class="my-4 text-center"><span class="text-danger">WARNING! WARNING! WARNING!</span></h2>
+                      <p class="lead">As stated on the information page, the products are AI made and produced by <del>slaves</del> robots. If you in someway do not support any of our causes and / or  plans, we highly reccommend that you leave this page now! <br> We make sure that all of our <del>slaves</del> personnel is well charged and get good time to charge, if need be so that our <del>slaves</del> personnel can stay happy forever</p>
+                  </div>
+                  <img class="img-thimbnail w-50 d-none d-sm-block p-5" src="picref/2_(38).jpg" alt="image of robots">
+              </div>
+          </div>
+      </section>
     </main>
-    <footer>
-        <p class="">This is the footer</p> 
-        <a href="index.html">add breadcrumb</a>
-    </footer>
-
-  
-
-
+    <footer class="p-5 bg-dark text-secondary text-end position-relative">
+      <p class="lead">
+          Copyright & copy 2025 AI milk Inc.
+      </p>
+  </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 </html>
